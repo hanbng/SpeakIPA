@@ -5,6 +5,7 @@ This iOS app lets user look for IPA transcription of words in many languages and
 
 ### Demo
 <img src="http://g.recordit.co/ZJkc7aHkRL.gif" width="350" title="ScreenRecording">
+<img src="http://g.recordit.co/W9iOnEjYCz.gif" width="350" title="ScreenRecording">
 
 ### Resources
 - [ipa-dict - Monolingual wordlists with pronunciation information in IPA:](https://github.com/open-dict-data/ipa-dict)
