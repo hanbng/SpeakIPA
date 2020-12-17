@@ -4,7 +4,7 @@ Speak IPA serves as my Honors project for the class LIN 424 at Michigan State Un
 This iOS app lets user look for IPA transcription of words in many languages and play games in guessing the correct IPA transcription of cerntain words.
 
 ### Demo
-<img src="https://recordit.co/ZJkc7aHkRL" width="350" title="ScreenRecording">
+<img src="http://g.recordit.co/ZJkc7aHkRL.gif" width="350" title="ScreenRecording">
 
 ### Resources
 - [ipa-dict - Monolingual wordlists with pronunciation information in IPA:](https://github.com/open-dict-data/ipa-dict)
