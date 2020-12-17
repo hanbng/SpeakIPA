@@ -15,9 +15,11 @@ class ChooseLanguageViewController: UIViewController, UICollectionViewDelegate, 
     let languages = [
         Language(name:"British English", code:"EN-GB") ,
         Language(name:"American English", code:"EN-US"),
-        Language(name:"French", code:"FR"),
-        Language(name:"Hindi", code:"HI"),
-        Language(name:"Spanish", code:"ES")
+        Language(name:"French", code:"french"),
+        Language(name:"Southern Vietnamese", code:"vietnamese_south"),
+        Language(name:"Japanese", code:"japanese"),
+        Language(name:"Finnish", code:"finnish"),
+        Language(name:"Spanish", code:"spanish")
     ]
     
     override func viewDidLoad() {
@@ -51,6 +53,7 @@ class ChooseLanguageViewController: UIViewController, UICollectionViewDelegate, 
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         self.performSegue(withIdentifier: segues.toTranscribeWord, sender: collectionView.cellForItem(at: indexPath))
+        collectionView.cellForItem(at: indexPath)?.backgroundColor = UIColor(named: "AppYellow")
     }
     
     

@@ -6,15 +6,17 @@
 //
 
 import UIKit
-
 class GetStartedViewController: UIViewController {
-
+    
+    @IBOutlet weak var getStartedButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        getStartedButton.becomeStandard()
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+    }
 
     /*
     // MARK: - Navigation

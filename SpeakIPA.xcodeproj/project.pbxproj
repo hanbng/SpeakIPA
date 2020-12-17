@@ -3,27 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F0689D925517868003E1BCC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0689D825517868003E1BCC /* SearchViewController.swift */; };
+		2F2BB069257B77DB00F01CE4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BB068257B77DB00F01CE4 /* Constants.swift */; };
+		2F2BB06F257B7E0500F01CE4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F2BB06E257B7E0500F01CE4 /* GoogleService-Info.plist */; };
+		2F2BB0A6257B851F00F01CE4 /* GetStartedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BB0A5257B851F00F01CE4 /* GetStartedViewController.swift */; };
+		2F2BB0A9257B857200F01CE4 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BB0A8257B857200F01CE4 /* QuizViewController.swift */; };
+		2F2BB0BD257BEF7600F01CE4 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BB0BC257BEF7600F01CE4 /* Game.swift */; };
+		2F2BB0C4257BFB7E00F01CE4 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BB0C3257BFB7E00F01CE4 /* ResultViewController.swift */; };
+		2F2BB0C7257C0B3900F01CE4 /* 38473-fireworks-icon.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F2BB0C6257C0B3900F01CE4 /* 38473-fireworks-icon.json */; };
+		2F30BB3525865FE9001CEC7A /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F30BB3425865FE9001CEC7A /* Sound.swift */; };
+		2F30BB592587651E001CEC7A /* IPAModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F30BB582587651E001CEC7A /* IPAModifier.swift */; };
+		2F8586A325511CE40053A62D /* UIProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8586A225511CE40053A62D /* UIProtocol.swift */; };
+		2F8586C2255122530053A62D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8586C1255122530053A62D /* MainViewController.swift */; };
+		2F8586C625512F6A0053A62D /* ChooseLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8586C525512F6A0053A62D /* ChooseLanguageViewController.swift */; };
+		2F8586C9255134190053A62D /* LanguageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8586C8255134190053A62D /* LanguageCell.swift */; };
+		2F8586CC255135210053A62D /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8586CB255135210053A62D /* Language.swift */; };
 		2FEB1654254C0E3100F44D0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB1653254C0E3100F44D0D /* AppDelegate.swift */; };
 		2FEB1656254C0E3100F44D0D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB1655254C0E3100F44D0D /* SceneDelegate.swift */; };
-		2FEB1658254C0E3100F44D0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB1657254C0E3100F44D0D /* ViewController.swift */; };
 		2FEB165B254C0E3100F44D0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FEB1659254C0E3100F44D0D /* Main.storyboard */; };
 		2FEB165D254C0E3600F44D0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FEB165C254C0E3600F44D0D /* Assets.xcassets */; };
 		2FEB1660254C0E3600F44D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FEB165E254C0E3600F44D0D /* LaunchScreen.storyboard */; };
+		2FEB1669254C139800F44D0D /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FEB1668254C139800F44D0D /* Networking.swift */; };
+		2FF9921B258B9F8E00222E77 /* 36900-spinner-circleloading-spinner.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FF9921A258B9F8D00222E77 /* 36900-spinner-circleloading-spinner.json */; };
+		2FF9921E258BA87C00222E77 /* lf30_editor_xhdgpuyb.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FF9921D258BA87C00222E77 /* lf30_editor_xhdgpuyb.json */; };
+		F20E32785690184AB90C7A4A /* Pods_SpeakIPA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53161A73B4082F04B81DD875 /* Pods_SpeakIPA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		06A3B3DE4862D21C581776B3 /* Pods-SpeakIPA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeakIPA.debug.xcconfig"; path = "Target Support Files/Pods-SpeakIPA/Pods-SpeakIPA.debug.xcconfig"; sourceTree = "<group>"; };
+		2F0689D825517868003E1BCC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		2F2BB068257B77DB00F01CE4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2F2BB06E257B7E0500F01CE4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../New Group/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2F2BB0A5257B851F00F01CE4 /* GetStartedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedViewController.swift; sourceTree = "<group>"; };
+		2F2BB0A8257B857200F01CE4 /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		2F2BB0BC257BEF7600F01CE4 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		2F2BB0C3257BFB7E00F01CE4 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		2F2BB0C6257C0B3900F01CE4 /* 38473-fireworks-icon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "38473-fireworks-icon.json"; path = "../../../../Downloads/38473-fireworks-icon.json"; sourceTree = "<group>"; };
+		2F30BB3425865FE9001CEC7A /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		2F30BB582587651E001CEC7A /* IPAModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPAModifier.swift; sourceTree = "<group>"; };
+		2F8586A225511CE40053A62D /* UIProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIProtocol.swift; sourceTree = "<group>"; };
+		2F8586C1255122530053A62D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2F8586C525512F6A0053A62D /* ChooseLanguageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseLanguageViewController.swift; sourceTree = "<group>"; };
+		2F8586C8255134190053A62D /* LanguageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageCell.swift; sourceTree = "<group>"; };
+		2F8586CB255135210053A62D /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
 		2FEB1650254C0E3100F44D0D /* SpeakIPA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakIPA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FEB1653254C0E3100F44D0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FEB1655254C0E3100F44D0D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2FEB1657254C0E3100F44D0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2FEB165A254C0E3100F44D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2FEB165C254C0E3600F44D0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FEB165F254C0E3600F44D0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FEB1661254C0E3600F44D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FEB1668254C139800F44D0D /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		2FF9921A258B9F8D00222E77 /* 36900-spinner-circleloading-spinner.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "36900-spinner-circleloading-spinner.json"; path = "../../../../Downloads/36900-spinner-circleloading-spinner.json"; sourceTree = "<group>"; };
+		2FF9921D258BA87C00222E77 /* lf30_editor_xhdgpuyb.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = lf30_editor_xhdgpuyb.json; path = ../../../../Downloads/lf30_editor_xhdgpuyb.json; sourceTree = "<group>"; };
+		53161A73B4082F04B81DD875 /* Pods_SpeakIPA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeakIPA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6E446DF1675F128EBBF0A7 /* Pods-SpeakIPA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeakIPA.release.xcconfig"; path = "Target Support Files/Pods-SpeakIPA/Pods-SpeakIPA.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +69,87 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20E32785690184AB90C7A4A /* Pods_SpeakIPA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F2BB08E257B824700F01CE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FEB1668254C139800F44D0D /* Networking.swift */,
+				2F8586A225511CE40053A62D /* UIProtocol.swift */,
+				2F8586CB255135210053A62D /* Language.swift */,
+				2F2BB068257B77DB00F01CE4 /* Constants.swift */,
+				2F2BB0BC257BEF7600F01CE4 /* Game.swift */,
+				2F30BB3425865FE9001CEC7A /* Sound.swift */,
+				2F30BB582587651E001CEC7A /* IPAModifier.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2F2BB08F257B825000F01CE4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2FEB1659254C0E3100F44D0D /* Main.storyboard */,
+				2FEB165E254C0E3600F44D0D /* LaunchScreen.storyboard */,
+				2F8586C8255134190053A62D /* LanguageCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F2BB090257B825500F01CE4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2FEB1653254C0E3100F44D0D /* AppDelegate.swift */,
+				2FEB1655254C0E3100F44D0D /* SceneDelegate.swift */,
+				2F8586C1255122530053A62D /* MainViewController.swift */,
+				2F2BB0A3257B84CD00F01CE4 /* Search */,
+				2F2BB0A4257B84E900F01CE4 /* Game */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2F2BB099257B838900F01CE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2FEB165C254C0E3600F44D0D /* Assets.xcassets */,
+				2F2BB06E257B7E0500F01CE4 /* GoogleService-Info.plist */,
+				2F2BB0C6257C0B3900F01CE4 /* 38473-fireworks-icon.json */,
+				2FF9921A258B9F8D00222E77 /* 36900-spinner-circleloading-spinner.json */,
+				2FF9921D258BA87C00222E77 /* lf30_editor_xhdgpuyb.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2F2BB0A3257B84CD00F01CE4 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				2F8586C525512F6A0053A62D /* ChooseLanguageViewController.swift */,
+				2F0689D825517868003E1BCC /* SearchViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		2F2BB0A4257B84E900F01CE4 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				2F2BB0A5257B851F00F01CE4 /* GetStartedViewController.swift */,
+				2F2BB0A8257B857200F01CE4 /* QuizViewController.swift */,
+				2F2BB0C3257BFB7E00F01CE4 /* ResultViewController.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
 		2FEB1647254C0E3100F44D0D = {
 			isa = PBXGroup;
 			children = (
 				2FEB1652254C0E3100F44D0D /* SpeakIPA */,
 				2FEB1651254C0E3100F44D0D /* Products */,
+				EA7A71ED41FF62F0B916B5A2 /* Pods */,
+				6A3A674799A4F0B788E8902C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +164,30 @@
 		2FEB1652254C0E3100F44D0D /* SpeakIPA */ = {
 			isa = PBXGroup;
 			children = (
-				2FEB1653254C0E3100F44D0D /* AppDelegate.swift */,
-				2FEB1655254C0E3100F44D0D /* SceneDelegate.swift */,
-				2FEB1657254C0E3100F44D0D /* ViewController.swift */,
-				2FEB1659254C0E3100F44D0D /* Main.storyboard */,
-				2FEB165C254C0E3600F44D0D /* Assets.xcassets */,
-				2FEB165E254C0E3600F44D0D /* LaunchScreen.storyboard */,
 				2FEB1661254C0E3600F44D0D /* Info.plist */,
+				2F2BB099257B838900F01CE4 /* Resources */,
+				2F2BB090257B825500F01CE4 /* Controllers */,
+				2F2BB08F257B825000F01CE4 /* Views */,
+				2F2BB08E257B824700F01CE4 /* Models */,
 			);
 			path = SpeakIPA;
+			sourceTree = "<group>";
+		};
+		6A3A674799A4F0B788E8902C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53161A73B4082F04B81DD875 /* Pods_SpeakIPA.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA7A71ED41FF62F0B916B5A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06A3B3DE4862D21C581776B3 /* Pods-SpeakIPA.debug.xcconfig */,
+				AB6E446DF1675F128EBBF0A7 /* Pods-SpeakIPA.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2FEB1664254C0E3600F44D0D /* Build configuration list for PBXNativeTarget "SpeakIPA" */;
 			buildPhases = (
+				D96689DD0F1CF848526E9D57 /* [CP] Check Pods Manifest.lock */,
 				2FEB164C254C0E3100F44D0D /* Sources */,
 				2FEB164D254C0E3100F44D0D /* Frameworks */,
 				2FEB164E254C0E3100F44D0D /* Resources */,
+				15965A57ECC6747D9FCAE0E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,7 +249,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F2BB0C7257C0B3900F01CE4 /* 38473-fireworks-icon.json in Resources */,
+				2FF9921E258BA87C00222E77 /* lf30_editor_xhdgpuyb.json in Resources */,
+				2FF9921B258B9F8E00222E77 /* 36900-spinner-circleloading-spinner.json in Resources */,
 				2FEB1660254C0E3600F44D0D /* LaunchScreen.storyboard in Resources */,
+				2F2BB06F257B7E0500F01CE4 /* GoogleService-Info.plist in Resources */,
 				2FEB165D254C0E3600F44D0D /* Assets.xcassets in Resources */,
 				2FEB165B254C0E3100F44D0D /* Main.storyboard in Resources */,
 			);
@@ -132,14 +261,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15965A57ECC6747D9FCAE0E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeakIPA/Pods-SpeakIPA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeakIPA/Pods-SpeakIPA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpeakIPA/Pods-SpeakIPA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D96689DD0F1CF848526E9D57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeakIPA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2FEB164C254C0E3100F44D0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FEB1658254C0E3100F44D0D /* ViewController.swift in Sources */,
+				2F0689D925517868003E1BCC /* SearchViewController.swift in Sources */,
+				2F2BB069257B77DB00F01CE4 /* Constants.swift in Sources */,
+				2F2BB0A6257B851F00F01CE4 /* GetStartedViewController.swift in Sources */,
+				2F8586C9255134190053A62D /* LanguageCell.swift in Sources */,
+				2F2BB0C4257BFB7E00F01CE4 /* ResultViewController.swift in Sources */,
+				2F8586A325511CE40053A62D /* UIProtocol.swift in Sources */,
+				2F8586CC255135210053A62D /* Language.swift in Sources */,
+				2F8586C625512F6A0053A62D /* ChooseLanguageViewController.swift in Sources */,
+				2F2BB0A9257B857200F01CE4 /* QuizViewController.swift in Sources */,
+				2F2BB0BD257BEF7600F01CE4 /* Game.swift in Sources */,
+				2F30BB592587651E001CEC7A /* IPAModifier.swift in Sources */,
 				2FEB1654254C0E3100F44D0D /* AppDelegate.swift in Sources */,
+				2F8586C2255122530053A62D /* MainViewController.swift in Sources */,
 				2FEB1656254C0E3100F44D0D /* SceneDelegate.swift in Sources */,
+				2FEB1669254C139800F44D0D /* Networking.swift in Sources */,
+				2F30BB3525865FE9001CEC7A /* Sound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -271,6 +456,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -283,6 +469,7 @@
 		};
 		2FEB1665254C0E3600F44D0D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06A3B3DE4862D21C581776B3 /* Pods-SpeakIPA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +489,7 @@
 		};
 		2FEB1666254C0E3600F44D0D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB6E446DF1675F128EBBF0A7 /* Pods-SpeakIPA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

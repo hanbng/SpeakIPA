@@ -8,5 +8,11 @@
 import Foundation
 
 struct segues {
-    static var toTranscribeWord = "toTranscribeSegue"
+    static let toTranscribeWord = "toTranscribeSegue"
+    static let toResultSegue = "toResultSegue"
+}
+
+struct buttons{
+    static let transcribeButton = "TranscribeButton"
+    static let gameButton = "GameButton"
 }
